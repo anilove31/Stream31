@@ -77,23 +77,3 @@ p {
     color: #666;
     margin: 0;
 }
-
-/* Responsive Design */
-
-@media (max-width: 1200px) {
-    .video-card {
-        width: calc(50% - 20px);
-    }
-}
-
-@media (max-width: 768px) {
-    .video-card {
-        width: calc(50% - 20px);
-    }
-}
-
-@media (max-width: 480px) {
-    .video-card {
-        width: calc(100% - 20px);
-    }
-}
