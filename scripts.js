@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Function to fetch videos from JSON file
     async function fetchVideos() {
     try {
-        const response = await fetch('https://raw.githubusercontent.com/anilove31/stream31/main/videos.json');
+        const response = await fetch('videos.json');
         const videos = await response.json();
         return videos;
     } catch (error) {
