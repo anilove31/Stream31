@@ -41,7 +41,7 @@ h1 {
 /* Video Card Styles */
 
 .video-card {
-    width: 640px; /* Set the default width for larger screens */
+    width: 300px;
     margin: 20px;
     padding: 15px;
     background-color: #fff;
@@ -49,10 +49,6 @@ h1 {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
 }
 
 .video-card:hover {
@@ -87,11 +83,7 @@ p {
         width: calc(50% - 40px);
     }
 }
-@media (max-width: 640px) {
-    .video-card {
-        width: calc(100% - 40px); /* Adjust as needed for padding and margins */
-    }
-}
+
 @media (max-width: 480px) {
     .video-card {
         width: calc(100% - 40px);
