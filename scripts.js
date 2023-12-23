@@ -31,11 +31,9 @@ document.addEventListener("DOMContentLoaded", function () {
         videoCard.setAttribute("data-desc", video.desc);
 
         videoCard.innerHTML = `
-            <div>
-                <iframe width="640" height="360" src="${video.embed}" frameborder="0" scrolling="0" allowfullscreen></iframe>
-                <h2>${video.name}</h2>
-                <p>${video.desc}</p>
-            </div>
+            <iframe width="640" height="360" src="${video.embed}" frameborder="0" scrolling="0" allowfullscreen></iframe>
+            <h2>${video.name}</h2>
+            <p>${video.desc}</p>
         `;
 
         return videoCard;
